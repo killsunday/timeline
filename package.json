@@ -1,0 +1,35 @@
+{
+  "name": "timeline",
+  "version": "1.0.0",
+  "description": "Timeline application, for memories",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killsunday/timeline.git"
+  },
+  "keywords": [
+    "timeline",
+    "memories",
+    "remember"
+  ],
+  "author": "David Crean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/killsunday/timeline/issues"
+  },
+  "homepage": "https://github.com/killsunday/timeline#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "express": "^4.16.3",
+    "https": "^1.0.0"
+  },
+  "dependencies": {
+    "create-react-app": "^1.5.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
