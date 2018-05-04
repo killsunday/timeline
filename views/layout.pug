@@ -3,11 +3,12 @@ html
     head
         title 
         block styles
-            link(href='/public/styles/styles.css', rel='stylesheet', type='text/css')
+            link(href='/public/styles/main.css', rel='stylesheet', type='text/css')
     body
         block header
             include includes/header.pug
         block content
+            h1 Welcome to this
         block scripts
             script(src='/public/scripts/index.js', type='module')
         block footer

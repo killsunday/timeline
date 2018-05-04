@@ -1,0 +1,102 @@
+{
+    "fileExtensions": [ ".less", ".css" ],
+    "attributeQuotes": true,
+    "borderZero": true,
+    "colorVariables": false,
+    "comment": false,
+    "decimalZero": "none",
+    "depthLevel": true,
+    "duplicateProperty": true,
+    "emptyRule": true,
+    "finalNewline": true,
+    "hexLength": "short",
+    "hexNotation": {
+        "enabled": true,
+        "style": "lowercase"
+    },
+    "hexValidation": true,
+    "idSelector": false,
+    "importantRule": true,
+    "importPath": {
+        "fileExtensions": true,
+        "leadingUnderscore": true
+    },
+    "maxCharacterPerLine": {
+        "enabled": true,
+        "limit": 100
+    },
+    "newlineAfterBlock": true,
+    "propertyOrdering": {
+        "enabled": true,
+        "style": "alpha"
+    },
+    "propertyUnits": {
+        "enabled": true,
+        "valid": [ "rem", "em", "vw", "vh", "px" ],
+        "invalid": [ "pt" ]
+    },
+    "qualifyingElement": {
+        "enabled": true,
+        "allowWithAttribute": false,
+        "allowWithClass": false,
+        "allowWithId": false
+    },
+    "selectorNaming": {
+        "enabled": true,
+        "disallowUppercase": true,
+        "disallowUnderscore": true
+    },
+    "singleLinePerProperty": {
+        "enabled": true,
+        "allowSingleLineRules": false
+    },
+    "singleLinePerSelector": {
+        "enabled": true,
+        "style": "none"
+    },
+    "spaceAfterPropertyColon": {
+        "enabled": true,
+        "style": "one_space"
+    },
+    "spaceAfterPropertyName": {
+        "enabled": true,
+        "style": "no_space"
+    },
+    "spaceAroundBang": {
+        "enabled": true,
+        "style": "before"
+    },
+    "spaceAroundComma": {
+        "enabled": true,
+        "style": "after"
+    },
+    "spaceAroundOperator": {
+        "enabled": true,
+        "style": "both"
+    },
+    "spaceBeforeBrace": {
+        "enabled": true,
+        "style": "one_space"
+    },
+    "spaceBetweenParens": {
+        "enabled": true,
+        "style": "no_space"
+    },
+    "stringQuotes": {
+        "enabled": true,
+        "style": "single"
+    },
+    "trailingSemicolon": true,
+    "trailingWhitespace": true,
+    "urlFormat": {
+        "enabled": true,
+        "style": "relative"
+    },
+    "universalSelector": true,
+    "urlQuotes": true,
+    "variableValue": false,
+    "zeroUnit": {
+        "enabled": true,
+        "style": "no_unit"
+    }
+}
