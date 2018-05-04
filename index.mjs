@@ -1,13 +1,12 @@
 import express from 'express';
-import MongoClient from 'mongodb';
+import Db from 'mongodb';
+import Server from 'mongodb';
+import Connection from 'mongodb';
 
-MongoClient.connect('mongodb://localhost:27017/timelines', (err, db) => {
-    if (err) {
+const host = 'localhost';
+const port = Connection.DEFAULT_PORT;
+const db = new Db('timelines', new Server(host, port, {}), { native_parser: false });
 
-        // eslint-disable-next-line
-        return console.log(err);
-    }
-});
 const app = express();
 app.set('view engine', 'pug');
 app.get('/', (req, res) => {
