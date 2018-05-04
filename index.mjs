@@ -1,11 +1,8 @@
 import express from 'express';
-import Db from 'mongodb';
-import Server from 'mongodb';
-import Connection from 'mongodb';
+import Client from 'mongodb';
+import dotenv from 'dotenv';
 
-const host = 'localhost';
-const port = Connection.DEFAULT_PORT;
-const db = new Db('timelines', new Server(host, port, {}), { native_parser: false });
+dotenv.config();
 
 const app = express();
 app.set('view engine', 'pug');
